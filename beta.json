@@ -1,9 +1,9 @@
 {
   "prBodyDefinitions": {
-    "Age": "![age](https://badges-beta.renovateapi.com/packages/age-slim/npm/{{replace '/' '%2f' depName}}/{{{toVersion}}})",
-    "Adoption": "![adoption](https://badges-beta.renovateapi.com/packages/adoption-slim/npm/{{replace '/' '%2f' depName}}/{{{toVersion}}})",
-    "Passing": "![compatibility](https://badges-beta.renovateapi.com/packages/compatibility-slim/npm/{{replace '/' '%2f' depName}}/{{{fromVersion}}}/{{{toVersion}}})",
-    "Confidence": "![confidence](https://badges-beta.renovateapi.com/packages/confidence-slim/npm/{{replace '/' '%2f' depName}}/{{{fromVersion}}}/{{{toVersion}}})"
+    "Age": "![age](https://badges.renovateapi.com/packages/npm/{{replace '/' '%2f' depName}}/{{{toVersion}}}/age-slim)",
+    "Adoption": "![adoption](https://badges.renovateapi.com/packages/npm/{{replace '/' '%2f' depName}}/{{{toVersion}}}/adoption-slim)",
+    "Passing": "![passing](https://badges.renovateapi.com/packages/npm/{{replace '/' '%2f' depName}}/{{{toVersion}}}/compatibility-slim/{{{fromVersion}}})",
+    "Confidence": "![confidence](https://badges.renovateapi.com/packages/npm/{{replace '/' '%2f' depName}}/{{{toVersion}}}/confidence-slim/{{{fromVersion}}})"
   },
   "packageRules": [
     {
