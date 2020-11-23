@@ -7,7 +7,7 @@ The new feature was created to help users avoid the pain of un-mergeable Pull Re
 
 Merge Confidence has four possible values:
 
-- **Low**: If an update is classified as having low merge confidence, it means we think it contains breaking changes. Often this is because it's a Major version update so this is intention, but sometimes it's unintentional or undeclared.
+- **Low**: If an update is classified as having low merge confidence, it means we think it contains breaking changes. Often this is because it's a Major version update so this is intentional, but sometimes it's unintentional or undeclared.
 
 - **Neutral**: If we do not have enough data about an update, or the data is not conclusive about whether the update should be classifed as High or Low, then we classify it as Neutral.
 
