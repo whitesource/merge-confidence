@@ -32,7 +32,7 @@ WhiteSource's hosted Renovate App has enabled a diverse user base across github.
 We found that by aggregating and analyzing metrics we already had, such as release age, release adoption, and Pull Request test results, we can accurately identify releases of open source packages that show signs of having undeclared breaking changes.
 
 The _algorithm_ for determining values is private and is not something we plan to share.
-Similar to a search engine's algorithm, we plan to tweak and enhance it over time, including with things like historical data to determine baseline confidence levels for packages.
+Similar to a search engine's algorithm, we plan to tweak and enhance it over time, like adding historical data to determine a baseline confidence level for packages.
 
 We plan to expose much more of the _data_ via a companion website, such as number of users of a package and popular repositories which may have already updated to the version in question.
 
