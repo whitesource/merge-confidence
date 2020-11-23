@@ -1,6 +1,7 @@
 # Merge Confidence
 
-Merge Confidence identifies and flags undeclared breaking releases based on analysis of test and release adoption data across WhiteSource Renovate’s early-adopting user base. The new feature was created to help users avoid the pain of un-mergeable Pull Requests or worse -- a broken dependency in production.
+Merge Confidence identifies and flags undeclared breaking releases based on analysis of test and release adoption data across WhiteSource Renovate’s early-adopting user base.
+The new feature was created to help users avoid the pain of un-mergeable Pull Requests or worse -- a broken dependency in production.
 
 ## Confidence Levels and their meaning
 
@@ -27,9 +28,11 @@ The badges available are:
 
 ## How Does It Work?
 
-WhiteSource's hosted Renovate App has enabled a diverse user base across github.com and gitlab.com to keep dependencies up-to-date since 2017, and generated millions of Pull Requests in the process. We found that by aggregating and analyzing metrics we already had, such as release age, release adoption, and Pull Request test results, we can accurately identify releases of open source packages that show signs of having undeclared breaking changes.
+WhiteSource's hosted Renovate App has enabled a diverse user base across github.com and gitlab.com to keep dependencies up-to-date since 2017, and generated millions of Pull Requests in the process.
+We found that by aggregating and analyzing metrics we already had, such as release age, release adoption, and Pull Request test results, we can accurately identify releases of open source packages that show signs of having undeclared breaking changes.
 
-The _algorithm_ for determining values is private and is not something we plan to share. Similar to a search engine's algorithm, we plan to tweak and enhance it over time, including with things like historical data to determine baseline confidence levels for packages.
+The _algorithm_ for determining values is private and is not something we plan to share.
+Similar to a search engine's algorithm, we plan to tweak and enhance it over time, including with things like historical data to determine baseline confidence levels for packages.
 
 We plan to expose much more of the _data_ via a companion website, such as number of users of a package and popular repositories which may have already updated to the version in question.
 
@@ -43,13 +46,15 @@ High-level information on planned enhancements is available in the [Merge Confid
 
 ## Enabling and Disabling
 
-Merge Confidence badges are enabled automatically for anyone using the WhiteSource Renovate App. For Renovate users of other types, you can enable Merge Confidence badges by adding `“extends”: [“github>whitesource/merge-confidence:beta”]` to your Renovate config.
+Merge Confidence badges are enabled automatically for anyone using the WhiteSource Renovate App.
+For Renovate users of other types, you can enable Merge Confidence badges by adding `“extends”: [“github>whitesource/merge-confidence:beta”]` to your Renovate config.
 
 If you’d prefer to disable these badges in the app, add `“ignorePresets”: [“github>whitesource/merge-confidence:beta”]` to your config instead.
 
 ## Miscellaneous Clarifications
 
-npm packages are never classified as High Confidence until they are at least 3 days old. This is because npm packages less than 72 hours old can be [unpublished](https://docs.npmjs.com/unpublishing-packages-from-the-registry), which could result in a service impact if you have already updated to it.
+npm packages are never classified as High Confidence until they are at least 3 days old.
+This is because npm packages less than 72 hours old can be [unpublished](https://docs.npmjs.com/unpublishing-packages-from-the-registry), which could result in a service impact if you have already updated to it.
 
 Percentage values for Adoption and Passing are not _raw_ percentages and instead are weighted towards Organizations, private repositories, and projects with high test reliability.
 
