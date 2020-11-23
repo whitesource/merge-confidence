@@ -29,9 +29,9 @@ The badges available are:
 
 WhiteSource's hosted Renovate App has enabled a diverse user base across github.com and gitlab.com to keep dependencies up-to-date since 2017, and generated millions of Pull Requests in the process. We found that by aggregating and analyzing metrics we already had, such as release age, release adoption, and Pull Request test results, we can accurately identify releases of open source packages that show signs of having undeclared breaking changes.
 
-The *algorithm* for determining values is private and is not something we plan to share. Similar to a search engine's algorithm, we plan to tweak and enhance it over time, including with things like historical data to determine baseline confidence levels for packages.
+The _algorithm_ for determining values is private and is not something we plan to share. Similar to a search engine's algorithm, we plan to tweak and enhance it over time, including with things like historical data to determine baseline confidence levels for packages.
 
-We plan to expose much more of the *data* via a companion website, such as number of users of a package and popular repositories which may have already updated to the version in question.
+We plan to expose much more of the _data_ via a companion website, such as number of users of a package and popular repositories which may have already updated to the version in question.
 
 ## Supported Platforms and Languages, Roadmap
 
@@ -51,7 +51,7 @@ If you’d prefer to disable these badges in the app, add `“ignorePresets”: 
 
 npm packages are never classified as High Confidence until they are at least 3 days old. This is because npm packages less than 72 hours old can be [unpublished](https://docs.npmjs.com/unpublishing-packages-from-the-registry), which could result in a service impact if you have already updated to it.
 
-Percentage values for Adoption and Passing are not *raw* percentages and instead are weighted towards Organizations, private repositories, and projects with high test reliability.
+Percentage values for Adoption and Passing are not _raw_ percentages and instead are weighted towards Organizations, private repositories, and projects with high test reliability.
 
 ## Questions and Feedback
 
