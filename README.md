@@ -40,7 +40,7 @@ We plan to expose much more of the _data_ via a companion website, such as numbe
 
 Merge Confidence badges for Pull Requests are available in beta on any supported Renovate platform today, including WhiteSource Remediate.
 
-Data is available for npm packages only for now, but it is planned to support them for other languages soon.
+Data is available for npm packages only for now, we plan to support other languages soon.
 
 High-level information on planned enhancements is available in the [Merge Confidence Roadmap Project](https://github.com/whitesource/merge-confidence/projects/1) on GitHub.
 
