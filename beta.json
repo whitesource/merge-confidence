@@ -7,7 +7,7 @@
   },
   "packageRules": [
     {
-      "datasources": ["npm"],
+      "datasources": ["maven", "npm"],
       "updateTypes": ["patch", "minor", "major"],
       "prBodyColumns": ["Package", "Change", "Age", "Adoption", "Passing", "Confidence"]
     }
