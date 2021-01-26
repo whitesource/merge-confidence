@@ -47,9 +47,15 @@ High-level information on planned enhancements is available in the [Merge Confid
 ## Enabling and Disabling
 
 Merge Confidence badges are enabled automatically for anyone using the WhiteSource Renovate App.
-For Renovate users of other types, you can enable Merge Confidence badges by adding `"extends": ["github>whitesource/merge-confidence:beta"]` to your Renovate config.
+For Renovate users of other types, you can enable Merge Confidence badges by adding this to your Renovate config:
+```json
+"extends": ["github>whitesource/merge-confidence:beta"]
+```
 
-If you’d prefer to disable these badges in the app, add `"ignorePresets": ["github>whitesource/merge-confidence:beta"]` to your config instead.
+If you’d prefer to disable these badges in the app, add this to your config instead:
+```json
+"ignorePresets": ["github>whitesource/merge-confidence:beta"]
+```
 
 ## Miscellaneous Clarifications
 
