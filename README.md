@@ -22,8 +22,8 @@ Merge Confidence is currently available in the form of Pull Request badges.
 The badges available are:
 
 - **Age**: How old the release is
-- **Adoption**: The percentage of Renovate's user base which is using this library
-- **Passing**: The percentage of updates which had successful test results
+- **Adoption**: The percentage of this library's users (within Renovate) which are using this release
+- **Passing**: The percentage of updates which had successful test results for this update
 - **Confidence**: The confidence level for this update
 
 ## How Does It Work?
