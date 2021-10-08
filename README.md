@@ -60,7 +60,7 @@ If you’d prefer to disable these badges in the app, add this to your config in
 ## Miscellaneous Clarifications
 
 npm packages are never classified as High Confidence until they are at least 3 days old.
-This is because npm packages less than 72 hours old can be [unpublished](https://docs.npmjs.com/unpublishing-packages-from-the-registry), which could result in a service impact if you have already updated to it.
+This is because npm packages less than 72 hours old can be [unpublished](https://docs.npmjs.com/unpublishing-packages-from-the-registry/), which could result in a service impact if you have already updated to it.
 
 Percentage values for Adoption and Passing are not _raw_ percentages and instead are weighted towards Organizations, private repositories, and projects with high test reliability.
 
