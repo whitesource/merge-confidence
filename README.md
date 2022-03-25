@@ -29,7 +29,7 @@ The badges available are:
 ## How Does It Work?
 
 WhiteSource's hosted Renovate App has enabled a diverse user base on github.com to keep dependencies up-to-date since 2017, and generated millions of Pull Requests in the process.
-We found that by aggregating and analyzing metrics we already had, such as release age, release adoption, and Pull Request test results, we can accurately identify releases of open source packages that show signs of having undeclared breaking changes.
+We found that by aggregating and analyzing metrics we already had, such as release age, release adoption, and Pull Request test results, we can correctly identify releases of open source packages that show signs of having undeclared breaking changes.
 
 The _algorithm_ for determining values is private and is not something we plan to share.
 Similar to a search engine's algorithm, we plan to tweak and enhance it over time, like adding historical data to determine a baseline confidence level for packages.
