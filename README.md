@@ -69,12 +69,12 @@ This way we can find packages that have undeclared breaking changes.
 
 ### Algorithm
 
-The _algorithm_ that decides on the values is private and is not something we plan to share.
+The algorithm that decides on the values is private and is not something we plan to share.
 Similar to a search engine's algorithm, we plan to adjust and improve it over time, for example by using historical data to set a baseline confidence level for packages.
 
 ### Data
 
-We plan to expose much more of the _data_ via a companion website, such as number of users of a package and popular repositories which already updated to the version in question.
+We plan to expose much more of the data via a companion website, such as number of users of a package and popular repositories which already updated to the version in question.
 
 ## Explanations
 
