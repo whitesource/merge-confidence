@@ -8,7 +8,7 @@ Look at the Merge Confidence badges before merging to:
 Merge Confidence finds and flags undeclared breaking releases.
 It analyzes test and release adoption data across WhiteSource Renovate’s early-adopting user base.
 
-![Renovate PR with Merge Confidence badges](https://github.com/whitesource/merge-confidence/raw/main/assets/merge-confidence.png)
+![Renovate PR with Merge Confidence badges](https://raw.githubusercontent.com/whitesource/merge-confidence/main/assets/merge-confidence.png)
 
 ## Pull request badges
 
