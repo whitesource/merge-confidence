@@ -6,7 +6,7 @@ Look at the Merge Confidence badges before merging to:
 - See at a glance if you should update
 
 Merge Confidence finds and flags undeclared breaking releases.
-It analyzes test and release adoption data across WhiteSource Renovate’s early-adopting user base.
+It analyzes test and release adoption data across Mend Renovate’s early-adopting user base.
 
 ![Renovate PR with Merge Confidence badges](https://raw.githubusercontent.com/whitesource/merge-confidence/main/assets/merge-confidence.png)
 
@@ -21,7 +21,7 @@ Merge Confidence adds the following badges to your pull requests:
 
 ## Supported platforms
 
-Merge Confidence badges for pull requests are available in beta on any supported Renovate platform, including WhiteSource Remediate.
+Merge Confidence badges for pull requests are available in beta on any supported Renovate platform, including Mend Remediate.
 
 ## Supported languages
 
@@ -35,7 +35,7 @@ We plan to support more languages soon.
 
 ## Enabling and disabling
 
-If you use the WhiteSource Renovate App then the badges are enabled automatically.
+If you use the Mend Renovate App (formerly WhiteSource Renovate App) then the badges are enabled automatically.
 
 If you don't use the app, you can enable the badges by adding this to your Renovate config:
 
@@ -63,7 +63,7 @@ Merge Confidence uses the following confidence levels:
 
 ## How it works
 
-WhiteSource's hosted Renovate App has created millions of pull requests on `github.com` to help developers update their dependencies since 2017.
+Mend's hosted Renovate App has created millions of pull requests on `github.com` to help developers update their dependencies since 2017.
 We bundle and analyze metrics such as package `Age`, package `Adoption`, and `Passing` tests.
 This way we can find packages that have undeclared breaking changes.
 
