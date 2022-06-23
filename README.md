@@ -1,3 +1,7 @@
+---
+edit_url: https://github.com/whitesource/merge-confidence/edit/main/README.md
+---
+
 # Merge Confidence
 
 Look at the Merge Confidence badges before merging to:
