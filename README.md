@@ -40,13 +40,13 @@ If you use the Mend Renovate App (formerly WhiteSource Renovate App) then the ba
 If you don't use the app, you can enable the badges by adding this to your Renovate config:
 
 ```json
-"extends": ["github>whitesource/merge-confidence:beta"]
+"extends": ["mergeConfidence:default"]
 ```
 
 If you want to disable the badges in the app, add this to your config:
 
 ```json
-"ignorePresets": ["github>whitesource/merge-confidence:beta"]
+"ignorePresets": ["mergeConfidence:default"]
 ```
 
 ## Confidence levels and their meaning
