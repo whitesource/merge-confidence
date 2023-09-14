@@ -7,7 +7,7 @@
   },
   "packageRules": [
     {
-     	"datasources": ["maven", "npm", "pypi", "nuget", "rubygems", "packagist"],
+      "datasources": ["maven", "npm", "pypi", "nuget", "rubygems", "packagist"],
       "updateTypes": ["patch", "minor", "major"],
       "prBodyColumns": ["Package", "Change", "Age", "Adoption", "Passing", "Confidence"]
     }
