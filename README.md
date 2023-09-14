@@ -1,3 +1,9 @@
+# Repository Deprecation Notice
+
+**Deprecation Notice:** Although still supported, the method specified in the rest of this `README.md` file for enabling Merge Confidence badges is no longer the preferred approach.
+
+For up-to-date instructions, we highly recommend referring to the official [documentation](https://docs.renovatebot.com/merge-confidence/).
+
 # Merge Confidence
 
 Look at the Merge Confidence badges before merging to:
